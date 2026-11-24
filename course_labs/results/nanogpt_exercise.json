@@ -1,0 +1,46 @@
+{
+  "device": "CPU",
+  "seed": 42,
+  "parameters": 265984,
+  "train_month": 5,
+  "heldout_month": 6,
+  "setup": {
+    "B": 8,
+    "s": 64,
+    "d": 64,
+    "h": 4,
+    "L": 2,
+    "train_characters": 170000,
+    "heldout_characters": 35000,
+    "heldout_unknown_characters": 335
+  },
+  "full_square_flops_per_block": {
+    "qkv": 12582912,
+    "attention_projection": 4194304,
+    "ffn": 33554432,
+    "attention_pairing": 8388608
+  },
+  "causal_prefix_max_diff": 0.0,
+  "training_seconds": 0.8661543999915011,
+  "heldout_before": 7.8568225502967834,
+  "heldout_after": 4.52730929851532,
+  "heldout_ppl_after": 92.50931096330196,
+  "history": [
+    {
+      "step": 30,
+      "loss": 4.886606216430664
+    },
+    {
+      "step": 60,
+      "loss": 4.51266622543335
+    },
+    {
+      "step": 90,
+      "loss": 4.303955554962158
+    },
+    {
+      "step": 120,
+      "loss": 4.2362542152404785
+    }
+  ]
+}

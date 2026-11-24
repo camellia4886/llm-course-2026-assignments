@@ -1,0 +1,82 @@
+{
+  "versions": [
+    "V0",
+    "V1",
+    "V2",
+    "V3"
+  ],
+  "seeds": [
+    20261124,
+    20261125
+  ],
+  "generation": {
+    "temperature": 0.55,
+    "top_p": 0.9,
+    "max_new_tokens": 192,
+    "do_sample": true
+  },
+  "poems": [
+    {
+      "id": "P1",
+      "split": "development",
+      "genre": "唐诗",
+      "title": "静夜思",
+      "author": "李白",
+      "lines": [
+        "床前明月光",
+        "疑是地上霜",
+        "举头望明月",
+        "低头思故乡"
+      ]
+    },
+    {
+      "id": "P2",
+      "split": "development",
+      "genre": "宋词",
+      "title": "如梦令·常记溪亭日暮",
+      "author": "李清照",
+      "lines": [
+        "常记溪亭日暮",
+        "沉醉不知归路",
+        "兴尽晚回舟",
+        "误入藕花深处",
+        "争渡，争渡",
+        "惊起一滩鸥鹭"
+      ]
+    },
+    {
+      "id": "P3",
+      "split": "holdout",
+      "genre": "唐诗",
+      "title": "相思",
+      "author": "王维",
+      "lines": [
+        "红豆生南国",
+        "春来发几枝",
+        "愿君多采撷",
+        "此物最相思"
+      ]
+    },
+    {
+      "id": "P4",
+      "split": "holdout",
+      "genre": "宋词",
+      "title": "卜算子·我住长江头",
+      "author": "李之仪",
+      "lines": [
+        "我住长江头",
+        "君住长江尾",
+        "日日思君不见君",
+        "共饮长江水",
+        "此水几时休",
+        "此恨何时已",
+        "只愿君心似我心",
+        "定不负相思意"
+      ]
+    }
+  ],
+  "standards": "Output only the translation in English, with one line per source line. Retain the speaker, direction, negation, questions, and revisions of expectation. Keep the concrete images and meaningful repetition. Do not fabricate details. Use concise poetic English. Meaning takes priority over rhyme.",
+  "reference": "Reference note: In classical Chinese verse the speaker can be implicit. Resolve viewpoint only as the text supports it. Parallel clauses often preserve contrasts of place, time or emotion. Repetition can carry rhythm and force. English may name a subject only where the source licenses it.",
+  "boundary": "Boundary example, unrelated to the target: 虽归未见君 -> Though I have returned, I have not seen you. Avoid I returned and saw you, which reverses the negative. Example: 隔岸灯明 -> Across the bank the lamps are bright. Do not add an unseen village or a reason for the lamps.",
+  "sha256": "198b49b850d83124b68774dd5d19d9e61562352914c2671f05661c26d1a34f7f"
+}

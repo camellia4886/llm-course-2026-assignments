@@ -1,0 +1,162 @@
+[
+  {
+    "id": "B01",
+    "poem": "P1",
+    "output": "In front of my bed shines bright moonlight,\nMisinterpreting it as frost on ground.\nLooking up at the clear sky's glow,\nMy heart turns to thoughts of home dear."
+  },
+  {
+    "id": "B02",
+    "poem": "P3",
+    "output": "Red beans grow in southern lands,\nSpring brings forth many branches anew.\nMay you gather them abundantly,\nFor this is the thing most dear to me."
+  },
+  {
+    "id": "B03",
+    "poem": "P1",
+    "output": "In front of my bed shines the moonlight,\nThought it was frost on the ground below.\nI raise my head to gaze at the clear sky,\nThen lower mine eyes toward home."
+  },
+  {
+    "id": "B04",
+    "poem": "P2",
+    "output": "Often remember the day when I visited the stream at sunset,\ndrunk and unaware of my return route.\nWhen all was over with the fun,\nI returned in the evening on my boat.\nI hurriedly tried to find its way out,\nonly to be startled by a flock of geese flying about.\nScrambling back and forth,\nI couldn't find my way out.\n\nNote: The original text contains some ambiguity due to the use of \"争渡\" which can mean both \"scramble\" or \"to struggle\". In this context, it is translated as \"hurriedly try to find its way out\" for clarity."
+  },
+  {
+    "id": "B05",
+    "poem": "P3",
+    "output": "Red beans grow in southern lands,\nSpring brings forth how many branches?\nMay you take much from this,\nFor it holds the most longing hearts."
+  },
+  {
+    "id": "B06",
+    "poem": "P2",
+    "output": "Often I recall my day in the stream,\ndrunk and unaware of returning paths.\nIn high spirits, I return home late on boat,\nand accidentally enter deep amidst lotus flowers.\nI struggle to cross over,\nstruggle to cross over,\nawakening startled by a flock of egrets and storks."
+  },
+  {
+    "id": "B07",
+    "poem": "P2",
+    "output": "Often remember the day when sunset bathed the willow bank,\nLost in pleasure I did not realize my return path.\nExhausted from the boat's journey at dusk,\nI turned back to explore the deep lotus pond.\nScrambling through the shallows, seeking to leave,\nThe startled egrets and ducks took flight on every wave."
+  },
+  {
+    "id": "B08",
+    "poem": "P1",
+    "output": "Beside my bed, bright moonlight gleams,\nMisguidedly, I think it's frost on ground.\nPeering up, at clear skies above,\nGazing down, I miss my hometown."
+  },
+  {
+    "id": "B09",
+    "poem": "P1",
+    "output": "Moonlight on the bed,\nThought it was frost below.\nLooking up at the bright moon,\nBowing my head for home."
+  },
+  {
+    "id": "B10",
+    "poem": "P1",
+    "output": "Moonlight on the bed,\nMisbelieving it's frosty ground.\nLooking up at the clear moon,\nLowering my gaze to think of home."
+  },
+  {
+    "id": "B11",
+    "poem": "P3",
+    "output": "Red beans grow in southern lands,\nSpring brings forth how many branches?\nMay you gather them often,\nThis is the thing most treasured."
+  },
+  {
+    "id": "B12",
+    "poem": "P4",
+    "output": "I live at the head of the Yangtze River,\nYou live at its tail.\nEvery day I think of you but cannot see you,\nWe drink the same river water together.\nThis water will never dry up,\nThis sorrow will not cease.\nMay your heart be like mine,\nAnd my love for you shall never disappoint."
+  },
+  {
+    "id": "B13",
+    "poem": "P4",
+    "output": "I live at the head of the Yangtze,\nYou dwell at its tail.\nEvery day I think of you but cannot see you,\nWe drink the same river water together.\nThis water will never stop flowing,\nThis sorrow will never cease.\nOnly hope that your heart is as true as mine,\nI will not let my love go unfulfilled."
+  },
+  {
+    "id": "B14",
+    "poem": "P4",
+    "output": "I live at the head of the Yangtze,\nYou dwell at its tail.\nEvery day I think of you but cannot see you;\nWe drink the same river's water together.\nThis water will never dry up,\nThis sorrow will never cease.\nI hope your heart is like mine too,\nI do not want to let you down."
+  },
+  {
+    "id": "B15",
+    "poem": "P2",
+    "output": "Always remember the sun-drenched evening at the stream,\nDrunk beyond returning home,\nIn pursuit of pleasure until dusk sets,\nI mistakenly found my way to the depths of lotus flowers.\n\nScrambling back and forth,\nAwakening a flock of egrets and storks on the shore."
+  },
+  {
+    "id": "B16",
+    "poem": "P4",
+    "output": "I live at the head of the Yangtze,\nYou reside at its tail.\nEvery day I think of you but see no sign of you,\nWe drink from the same river.\nThis water will never cease to flow,\nThis sorrow will never end.\nMay your heart be true to mine,\nAnd my love for you shall never fail."
+  },
+  {
+    "id": "B17",
+    "poem": "P3",
+    "output": "Here is the English translation of the poem:\n\nRed Beans Born in Southern Lands\nSpring Comes and They Grow Many Branches\nMay You Take Much From This, And Remember Me\n\nThis poem expresses deep longing and affection for someone who has been missed or forgotten. The \"red beans\" symbolize the poet's love and desire to be remembered by the recipient. The line \"may you take much from this\" suggests that the poet hopes the recipient will remember them fondly and appreciate their presence in their life. Overall, it conveys a sense of yearning and attachment between two people separated by time."
+  },
+  {
+    "id": "B18",
+    "poem": "P4",
+    "output": "I live at the head of the Yangtze River\nYou live at its tail\nEvery day I think about you but cannot see you\nWe drink from the same river and share the same water\nThis water has never stopped flowing\nAnd this sorrow will never end\nI only hope that your heart is like mine\nAnd I promise to fulfill my love for you."
+  },
+  {
+    "id": "B19",
+    "poem": "P2",
+    "output": "Often remember the day when sunset bathed the willow bank,\nDrunk and unaware of my return path.\nEndless joy led back the boat late at night,\nEntering deep within the lotus pond's secluded shore.\nCrossing, crossing again,\nAwakening a flock of egrets on the tranquil ripples."
+  },
+  {
+    "id": "B20",
+    "poem": "P4",
+    "output": "I live at the head of the Yangtze,\nYou dwell at its tail.\nEvery day I think of you but cannot see you,\nWe drink the same river's water together.\nThis water will never dry up,\nThis sorrow will never cease.\nI hope your heart is as true to me as mine,\nI promise to fulfill my love for you."
+  },
+  {
+    "id": "B21",
+    "poem": "P1",
+    "output": "In front of my bed shines the moonlight,\nAs if it were frost on the ground.\nI raise my head to gaze at the bright moon,\nAnd lower mine eyes to miss home."
+  },
+  {
+    "id": "B22",
+    "poem": "P2",
+    "output": "Remembering the sun-dappled evening by the stream,\nLost in wine until I forgot my way back home.\nAt dusk, I returned on my boat,\nOnly to find myself deep within the lotus pond's embrace.\nCrossing again and again,\nI startled a flock of egrets as they flew away."
+  },
+  {
+    "id": "B23",
+    "poem": "P4",
+    "output": "I live at the head of the Yangtze,\nYou reside at its tail end.\nEvery day I think of you but cannot see you,\nWe drink the same river water together.\nThis water will never cease flowing,\nThis sorrow will never be resolved.\nMay your heart truly love me as my heart loves you,\nI promise to fulfill your deep longing."
+  },
+  {
+    "id": "B24",
+    "poem": "P4",
+    "output": "I live at the head of the Yangtze,\nYou reside at its tail.\nEvery day I think of you but see no sign of you,\nWe drink the same river water together.\nThis water has been flowing for ages,\nHow long will this sorrow last?\nOnly hope that your heart is as pure as mine,\nAnd I won't let my love go unfulfilled."
+  },
+  {
+    "id": "B25",
+    "poem": "P2",
+    "output": "Often remember the sun-drenched evening by the stream,\nDrunk beyond returning home,\nIn deep dusk, I paddled back late,\nStrayed into the depths of lotus pond.\n\nCrossing again and again,\nTrembling at startling birds flying."
+  },
+  {
+    "id": "B26",
+    "poem": "P1",
+    "output": "Moonlight on the bed,\nThought it was frost on earth.\nLooking up at the bright moon,\nBowing my head for home."
+  },
+  {
+    "id": "B27",
+    "poem": "P1",
+    "output": "Moonlight shining on the bed,\nI doubt it's frost on the ground.\nLooking up at the bright moon,\nMy thoughts drift to my hometown."
+  },
+  {
+    "id": "B28",
+    "poem": "P3",
+    "output": "Red beans grow in southern lands,\nSpring brings forth how many branches?\nMay you take much from this,\nThis is the most treasured thing."
+  },
+  {
+    "id": "B29",
+    "poem": "P3",
+    "output": "Here's my translation of the poem \"The Red Bean\" (红豆) from classical Chinese to English:\n\nRed beans grow in southern lands,\nSpringtime brings forth how many branches?\nMay you take much of this for your own;\nThis thing is most dear to me.\n\nNote: The original poem contains some poetic license and does not have an exact equivalent in English. This translation aims to convey the essence and meaning of the original while also being accessible and understandable to a wide audience."
+  },
+  {
+    "id": "B30",
+    "poem": "P3",
+    "output": "Red beans grow in southern lands,\nSpring brings forth how many branches?\nMay you gather them often,\nThis is the thing most treasured."
+  },
+  {
+    "id": "B31",
+    "poem": "P3",
+    "output": "Red beans grow in southern lands,\nSpring brings forth how many branches?\nMay you gather them abundantly,\nThis thing most evokes my yearning."
+  },
+  {
+    "id": "B32",
+    "poem": "P2",
+    "output": "Often remember the sun sinking low by the willow bank\nLost in drunkenness I didn't realize my way home\nThe joy was so great that I returned late at night on my boat\nI got lost in the depths of lotus pond flowers\nScramble to cross, scramble to cross\nAwakened by the sound of thousands of egrets and storks"
+  }
+]

@@ -1,0 +1,194 @@
+[
+  {
+    "known_token_ratio": 0.8159687516439581,
+    "documents_without_in_vocab_tokens": 0,
+    "classes": 2,
+    "labels": [
+      "经济",
+      "政务"
+    ],
+    "clf": "LR",
+    "n": 1028,
+    "f1_mean": 0.8435,
+    "f1_std": 0.0209,
+    "vec": "w2v"
+  },
+  {
+    "known_token_ratio": 0.8159687516439581,
+    "documents_without_in_vocab_tokens": 0,
+    "classes": 2,
+    "labels": [
+      "经济",
+      "政务"
+    ],
+    "clf": "SVM",
+    "n": 1028,
+    "f1_mean": 0.8437,
+    "f1_std": 0.0216,
+    "vec": "w2v"
+  },
+  {
+    "known_token_ratio": 0.8159687516439581,
+    "documents_without_in_vocab_tokens": 0,
+    "classes": 2,
+    "labels": [
+      "经济",
+      "政务"
+    ],
+    "clf": "LR",
+    "n": 1028,
+    "f1_mean": 0.8544,
+    "f1_std": 0.0246,
+    "vec": "ft"
+  },
+  {
+    "known_token_ratio": 0.8159687516439581,
+    "documents_without_in_vocab_tokens": 0,
+    "classes": 2,
+    "labels": [
+      "经济",
+      "政务"
+    ],
+    "clf": "SVM",
+    "n": 1028,
+    "f1_mean": 0.8672,
+    "f1_std": 0.027,
+    "vec": "ft"
+  },
+  {
+    "known_token_ratio": 0.8161974220984756,
+    "documents_without_in_vocab_tokens": 0,
+    "classes": 4,
+    "labels": [
+      "经济",
+      "政务",
+      "文化",
+      "外交"
+    ],
+    "clf": "LR",
+    "n": 1503,
+    "f1_mean": 0.7822,
+    "f1_std": 0.0193,
+    "vec": "w2v"
+  },
+  {
+    "known_token_ratio": 0.8161974220984756,
+    "documents_without_in_vocab_tokens": 0,
+    "classes": 4,
+    "labels": [
+      "经济",
+      "政务",
+      "文化",
+      "外交"
+    ],
+    "clf": "SVM",
+    "n": 1503,
+    "f1_mean": 0.7811,
+    "f1_std": 0.0249,
+    "vec": "w2v"
+  },
+  {
+    "known_token_ratio": 0.8161974220984756,
+    "documents_without_in_vocab_tokens": 0,
+    "classes": 4,
+    "labels": [
+      "经济",
+      "政务",
+      "文化",
+      "外交"
+    ],
+    "clf": "LR",
+    "n": 1503,
+    "f1_mean": 0.796,
+    "f1_std": 0.0239,
+    "vec": "ft"
+  },
+  {
+    "known_token_ratio": 0.8161974220984756,
+    "documents_without_in_vocab_tokens": 0,
+    "classes": 4,
+    "labels": [
+      "经济",
+      "政务",
+      "文化",
+      "外交"
+    ],
+    "clf": "SVM",
+    "n": 1503,
+    "f1_mean": 0.7981,
+    "f1_std": 0.0275,
+    "vec": "ft"
+  },
+  {
+    "known_token_ratio": 0.8151607677557691,
+    "documents_without_in_vocab_tokens": 0,
+    "classes": 6,
+    "labels": [
+      "经济",
+      "政务",
+      "文化",
+      "外交",
+      "科技",
+      "体育"
+    ],
+    "clf": "LR",
+    "n": 1828,
+    "f1_mean": 0.7091,
+    "f1_std": 0.026,
+    "vec": "w2v"
+  },
+  {
+    "known_token_ratio": 0.8151607677557691,
+    "documents_without_in_vocab_tokens": 0,
+    "classes": 6,
+    "labels": [
+      "经济",
+      "政务",
+      "文化",
+      "外交",
+      "科技",
+      "体育"
+    ],
+    "clf": "SVM",
+    "n": 1828,
+    "f1_mean": 0.7198,
+    "f1_std": 0.0159,
+    "vec": "w2v"
+  },
+  {
+    "known_token_ratio": 0.8151607677557691,
+    "documents_without_in_vocab_tokens": 0,
+    "classes": 6,
+    "labels": [
+      "经济",
+      "政务",
+      "文化",
+      "外交",
+      "科技",
+      "体育"
+    ],
+    "clf": "LR",
+    "n": 1828,
+    "f1_mean": 0.7486,
+    "f1_std": 0.0124,
+    "vec": "ft"
+  },
+  {
+    "known_token_ratio": 0.8151607677557691,
+    "documents_without_in_vocab_tokens": 0,
+    "classes": 6,
+    "labels": [
+      "经济",
+      "政务",
+      "文化",
+      "外交",
+      "科技",
+      "体育"
+    ],
+    "clf": "SVM",
+    "n": 1828,
+    "f1_mean": 0.7554,
+    "f1_std": 0.0165,
+    "vec": "ft"
+  }
+]

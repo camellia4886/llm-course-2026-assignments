@@ -1,0 +1,68 @@
+=== 1/5 Counting and sorting n-grams ===
+Reading stdin
+Unigram tokens 1120542 types 54523
+=== 2/5 Calculating and sorting adjusted counts ===
+Chain sizes: 1:654276 2:186510144 3:349706528
+Statistics:
+1 54523 D1=0.643632 D2=1.00802 D3+=1.35714
+2 460191 D1=0.774998 D2=1.13724 D3+=1.40314
+3 867689 D1=0.868471 D2=1.25146 D3+=1.47619
+=== 3/5 Calculating and sorting initial probabilities ===
+Chain sizes: 1:654276 2:7363056 3:17353780
+=== 4/5 Calculating and writing order-interpolated probabilities ===
+Chain sizes: 1:654276 2:7363056 3:17353780
+=== 5/5 Writing ARPA model ===
+real:10
+{'months': [1], 'words': 1120542, 'sentences': 19358, 'training_seconds': 10.256, 'arpa_bytes': 45133582, 'arpa_ngram_counts': {1: 54523, 2: 460191, 3: 867689}}
+=== 1/5 Counting and sorting n-grams ===
+Reading stdin
+Unigram tokens 3521467 types 96098
+=== 2/5 Calculating and sorting adjusted counts ===
+Chain sizes: 1:1153176 2:186336608 3:349381152
+Statistics:
+1 96098 D1=0.648232 D2=0.997063 D3+=1.35148
+2 1059379 D1=0.756479 D2=1.10986 D3+=1.3961
+3 2379373 D1=0.840797 D2=1.21569 D3+=1.41631
+=== 3/5 Calculating and sorting initial probabilities ===
+Chain sizes: 1:1153176 2:16950064 3:47587460
+=== 4/5 Calculating and writing order-interpolated probabilities ===
+Chain sizes: 1:1153176 2:16950064 3:47587460
+=== 5/5 Writing ARPA model ===
+real:23
+{'months': [1, 2, 3], 'words': 3521467, 'sentences': 59702, 'training_seconds': 22.285, 'arpa_bytes': 114115687, 'arpa_ngram_counts': {1: 96098, 2: 1059379, 3: 2379373}}
+=== 1/5 Counting and sorting n-grams ===
+Reading stdin
+Unigram tokens 7310182 types 139513
+=== 2/5 Calculating and sorting adjusted counts ===
+Chain sizes: 1:1674156 2:186155408 3:349041376
+Statistics:
+1 139513 D1=0.652923 D2=1.00183 D3+=1.30774
+2 1840504 D1=0.748183 D2=1.09926 D3+=1.38082
+3 4594605 D1=0.832186 D2=1.19173 D3+=1.39785
+=== 3/5 Calculating and sorting initial probabilities ===
+Chain sizes: 1:1674156 2:29448064 3:91892100
+=== 4/5 Calculating and writing order-interpolated probabilities ===
+Chain sizes: 1:1674156 2:29448064 3:91892100
+=== 5/5 Writing ARPA model ===
+real:36
+{'months': [1, 2, 3, 4, 5, 6], 'words': 7310182, 'sentences': 123761, 'training_seconds': 35.764, 'arpa_bytes': 213410228, 'arpa_ngram_counts': {1: 139513, 2: 1840504, 3: 4594605}}
+=== 1/5 Counting and sorting n-grams ===
+Reading stdin
+Unigram tokens 6058448 types 127821
+=== 2/5 Calculating and sorting adjusted counts ===
+Chain sizes: 1:1533852 2:186204192 3:349132864
+Statistics:
+1 127821 D1=0.652184 D2=0.995997 D3+=1.32798
+2 1604029 D1=0.750817 D2=1.09883 D3+=1.39566
+3 3893119 D1=0.835122 D2=1.19407 D3+=1.40442
+=== 3/5 Calculating and sorting initial probabilities ===
+Chain sizes: 1:1533852 2:25664464 3:77862380
+=== 4/5 Calculating and writing order-interpolated probabilities ===
+Chain sizes: 1:1533852 2:25664464 3:77862380
+=== 5/5 Writing ARPA model ===
+real:40
+{'months': [1, 2, 3, 4, 5], 'words': 6058448, 'sentences': 102618, 'training_seconds': 39.767, 'arpa_bytes': 181469453, 'arpa_ngram_counts': {1: 127821, 2: 1604029, 3: 3893119}}
+Loading the LM will be faster if you build a binary file.
+Reading model.arpa
+real:1
+Held-out PPL 317.522

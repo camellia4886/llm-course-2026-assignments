@@ -1,0 +1,92 @@
+{
+  "estimator": "KenLM lmplz",
+  "estimator_sha256": "0e82a16056090b7a897b59719f5c1322536e53824c956d89d14fb4883bcd28d9",
+  "options": [
+    "-o",
+    "3",
+    "-S",
+    "512M",
+    "-T",
+    ".",
+    "--discount_fallback"
+  ],
+  "scorer": "KenLM query -v summary with sentence boundaries",
+  "scorer_sha256": "767226f02858758bb9d7766f5601234ea98faf454475946a19cc565937668848",
+  "method": "trigram modified Kneser–Ney, all n-grams retained",
+  "training_scale": [
+    {
+      "months": [
+        1
+      ],
+      "words": 1120542,
+      "sentences": 19358,
+      "training_seconds": 10.256,
+      "arpa_bytes": 45133582,
+      "arpa_ngram_counts": {
+        "1": 54523,
+        "2": 460191,
+        "3": 867689
+      }
+    },
+    {
+      "months": [
+        1,
+        2,
+        3
+      ],
+      "words": 3521467,
+      "sentences": 59702,
+      "training_seconds": 22.285,
+      "arpa_bytes": 114115687,
+      "arpa_ngram_counts": {
+        "1": 96098,
+        "2": 1059379,
+        "3": 2379373
+      }
+    },
+    {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "words": 7310182,
+      "sentences": 123761,
+      "training_seconds": 35.764,
+      "arpa_bytes": 213410228,
+      "arpa_ngram_counts": {
+        "1": 139513,
+        "2": 1840504,
+        "3": 4594605
+      }
+    }
+  ],
+  "heldout_evaluation": {
+    "months": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "words": 200110,
+    "sentences": 3374,
+    "training_seconds": 39.767,
+    "arpa_bytes": 181469453,
+    "arpa_ngram_counts": {
+      "1": 127821,
+      "2": 1604029,
+      "3": 3893119
+    },
+    "test_month": "06",
+    "word_limit_rule": "stop after the first full sentence reaching 200000 words",
+    "scored_positions_including_eos": 203484,
+    "oov_words": 2532,
+    "oov_rate": 0.012653040827544851,
+    "perplexity_including_oov_and_eos": 317.5217224960692,
+    "perplexity_excluding_oov": 280.0776708164196
+  }
+}

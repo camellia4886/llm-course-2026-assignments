@@ -1,0 +1,299 @@
+{
+  "arms": {
+    "基线": {
+      "古文_acc": 0.857,
+      "古文_macroF1": 0.4062,
+      "古文_出现类macroF1": 0.4062,
+      "古文_+规则_acc": 0.8441,
+      "古文_+规则_macroF1": 0.3605,
+      "古文_+规则_出现类macroF1": 0.3605,
+      "现代文_macroF1": 0.5529,
+      "现代文_+规则_macroF1": 0.5368,
+      "古文_per_label": {
+        "O": 0.936,
+        "，": 0.5357,
+        "。": 0.5783,
+        "、": 0.2,
+        "；": 0.0,
+        "：": 0.5,
+        "？": 0.5,
+        "！": 0.0
+      },
+      "古文_仅标点macroF1": 0.33057536267519055,
+      "古文_+规则_仅标点macroF1": 0.2788347597103357
+    },
+    "精选SFT": {
+      "古文_acc": 0.8608,
+      "古文_macroF1": 0.4197,
+      "古文_出现类macroF1": 0.4197,
+      "古文_+规则_acc": 0.8492,
+      "古文_+规则_macroF1": 0.3691,
+      "古文_+规则_出现类macroF1": 0.3691,
+      "现代文_macroF1": 0.546,
+      "现代文_+规则_macroF1": 0.5297,
+      "古文_per_label": {
+        "O": 0.9401,
+        "，": 0.5981,
+        "。": 0.5195,
+        "、": 0.0,
+        "；": 0.0,
+        "：": 0.5,
+        "？": 0.8,
+        "！": 0.0
+      },
+      "古文_仅标点macroF1": 0.34537305151457354,
+      "古文_+规则_仅标点macroF1": 0.28839510882234515
+    }
+  },
+  "ledger": {
+    "eval_baseline_s": 6.2,
+    "sft_train_s": 1.3,
+    "eval_sft_s": 5.7
+  },
+  "configuration": {
+    "seed": 42,
+    "epochs": 8,
+    "learning_rate": 2e-05,
+    "batch": 4,
+    "device": "cuda",
+    "training": [
+      "岳阳楼记",
+      "醉翁亭记",
+      "爱莲说",
+      "陋室铭",
+      "马说"
+    ],
+    "test": [
+      "桃花源记",
+      "师说"
+    ],
+    "modern_holdout": 2000
+  },
+  "train_chars": 1121,
+  "constraint_variants": {
+    "基线": [
+      {
+        "name": "1A_句末疑问",
+        "gold": "此事合礼乎？",
+        "predicted": "此事合礼乎",
+        "with_rule": "此事合礼乎？",
+        "exact": false,
+        "exact_with_rule": true
+      },
+      {
+        "name": "1B_句中介词",
+        "gold": "此事合乎礼。",
+        "predicted": "此事合乎礼",
+        "with_rule": "此事合乎？礼",
+        "exact": false,
+        "exact_with_rule": false
+      },
+      {
+        "name": "2A_反问",
+        "gold": "其言不亦善乎？",
+        "predicted": "其言不亦善乎",
+        "with_rule": "其言不亦善乎？",
+        "exact": false,
+        "exact_with_rule": true
+      },
+      {
+        "name": "2B_判断",
+        "gold": "其言固善也。",
+        "predicted": "其言固善也",
+        "with_rule": "其言固善也。",
+        "exact": false,
+        "exact_with_rule": true
+      },
+      {
+        "name": "3A_叹句",
+        "gold": "美哉，此山！",
+        "predicted": "美哉此山",
+        "with_rule": "美哉？此山",
+        "exact": false,
+        "exact_with_rule": false
+      },
+      {
+        "name": "3B_问句",
+        "gold": "此山可登哉？",
+        "predicted": "此山可登哉",
+        "with_rule": "此山可登哉？",
+        "exact": false,
+        "exact_with_rule": true
+      },
+      {
+        "name": "4A_句中助词",
+        "gold": "此事也未可遽定。",
+        "predicted": "此事也未可遽定",
+        "with_rule": "此事也。未可遽定",
+        "exact": false,
+        "exact_with_rule": false
+      },
+      {
+        "name": "4B_句末助词",
+        "gold": "此事未可遽定也。",
+        "predicted": "此事未可遽定也",
+        "with_rule": "此事未可遽定也。",
+        "exact": false,
+        "exact_with_rule": true
+      },
+      {
+        "name": "5A_反问",
+        "gold": "人孰无过耶？",
+        "predicted": "人孰无过耶",
+        "with_rule": "人孰无过耶？",
+        "exact": false,
+        "exact_with_rule": true
+      },
+      {
+        "name": "5B_陈述",
+        "gold": "人皆有过矣。",
+        "predicted": "人皆有过矣",
+        "with_rule": "人皆有过矣。",
+        "exact": false,
+        "exact_with_rule": true
+      },
+      {
+        "name": "6A_句中焉",
+        "gold": "彼往焉而未返。",
+        "predicted": "彼往焉而未返。",
+        "with_rule": "彼往焉。而未返。",
+        "exact": true,
+        "exact_with_rule": false
+      },
+      {
+        "name": "6B_句末焉",
+        "gold": "彼往而不返焉。",
+        "predicted": "彼往而不返焉。",
+        "with_rule": "彼往而不返焉。",
+        "exact": true,
+        "exact_with_rule": true
+      }
+    ],
+    "精选SFT": [
+      {
+        "name": "1A_句末疑问",
+        "gold": "此事合礼乎？",
+        "predicted": "此事合礼乎？",
+        "with_rule": "此事合礼乎？",
+        "exact": true,
+        "exact_with_rule": true
+      },
+      {
+        "name": "1B_句中介词",
+        "gold": "此事合乎礼。",
+        "predicted": "此事合乎礼",
+        "with_rule": "此事合乎？礼",
+        "exact": false,
+        "exact_with_rule": false
+      },
+      {
+        "name": "2A_反问",
+        "gold": "其言不亦善乎？",
+        "predicted": "其言不亦善乎？",
+        "with_rule": "其言不亦善乎？",
+        "exact": true,
+        "exact_with_rule": true
+      },
+      {
+        "name": "2B_判断",
+        "gold": "其言固善也。",
+        "predicted": "其言固善也。",
+        "with_rule": "其言固善也。",
+        "exact": true,
+        "exact_with_rule": true
+      },
+      {
+        "name": "3A_叹句",
+        "gold": "美哉，此山！",
+        "predicted": "美哉此山",
+        "with_rule": "美哉？此山",
+        "exact": false,
+        "exact_with_rule": false
+      },
+      {
+        "name": "3B_问句",
+        "gold": "此山可登哉？",
+        "predicted": "此山可登哉",
+        "with_rule": "此山可登哉？",
+        "exact": false,
+        "exact_with_rule": true
+      },
+      {
+        "name": "4A_句中助词",
+        "gold": "此事也未可遽定。",
+        "predicted": "此事也未可遽定。",
+        "with_rule": "此事也。未可遽定。",
+        "exact": true,
+        "exact_with_rule": false
+      },
+      {
+        "name": "4B_句末助词",
+        "gold": "此事未可遽定也。",
+        "predicted": "此事未可遽定也",
+        "with_rule": "此事未可遽定也。",
+        "exact": false,
+        "exact_with_rule": true
+      },
+      {
+        "name": "5A_反问",
+        "gold": "人孰无过耶？",
+        "predicted": "人孰无过耶",
+        "with_rule": "人孰无过耶？",
+        "exact": false,
+        "exact_with_rule": true
+      },
+      {
+        "name": "5B_陈述",
+        "gold": "人皆有过矣。",
+        "predicted": "人皆有过矣",
+        "with_rule": "人皆有过矣。",
+        "exact": false,
+        "exact_with_rule": true
+      },
+      {
+        "name": "6A_句中焉",
+        "gold": "彼往焉而未返。",
+        "predicted": "彼往焉而未返。",
+        "with_rule": "彼往焉。而未返。",
+        "exact": true,
+        "exact_with_rule": false
+      },
+      {
+        "name": "6B_句末焉",
+        "gold": "彼往而不返焉。",
+        "predicted": "彼往而不返焉。",
+        "with_rule": "彼往而不返焉。",
+        "exact": true,
+        "exact_with_rule": true
+      }
+    ]
+  },
+  "errors_基线_古文": [
+    [
+      0,
+      28,
+      11,
+      "句数不一致"
+    ],
+    [
+      1,
+      30,
+      23,
+      "句数不一致"
+    ]
+  ],
+  "errors_精选SFT_古文": [
+    [
+      0,
+      28,
+      7,
+      "句数不一致"
+    ],
+    [
+      1,
+      30,
+      22,
+      "句数不一致"
+    ]
+  ]
+}

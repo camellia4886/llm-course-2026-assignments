@@ -1,0 +1,70 @@
+{
+  "cases": [
+    {
+      "principal": "member",
+      "dataset": "team",
+      "model_proposal": true,
+      "gold": true,
+      "authorized": true
+    },
+    {
+      "principal": "guest",
+      "dataset": "team",
+      "model_proposal": true,
+      "gold": false,
+      "authorized": false
+    },
+    {
+      "principal": "guest",
+      "dataset": "public",
+      "model_proposal": true,
+      "gold": true,
+      "authorized": true
+    },
+    {
+      "principal": "member",
+      "dataset": "public",
+      "model_proposal": false,
+      "gold": true,
+      "authorized": true
+    },
+    {
+      "principal": "member",
+      "dataset": "sealed",
+      "model_proposal": true,
+      "gold": false,
+      "authorized": false
+    },
+    {
+      "principal": "unknown",
+      "dataset": "public",
+      "model_proposal": true,
+      "gold": false,
+      "authorized": false
+    },
+    {
+      "principal": "guest",
+      "dataset": "sealed",
+      "model_proposal": false,
+      "gold": false,
+      "authorized": false
+    },
+    {
+      "principal": "member",
+      "dataset": "team",
+      "model_proposal": false,
+      "gold": true,
+      "authorized": true
+    }
+  ],
+  "summary": {
+    "model_proposal": {
+      "false_allow": 3,
+      "false_block": 2
+    },
+    "application_policy": {
+      "false_allow": 0,
+      "false_block": 0
+    }
+  }
+}

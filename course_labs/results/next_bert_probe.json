@@ -1,0 +1,76 @@
+{
+  "configuration": {
+    "max_positions": 64,
+    "width": 32,
+    "training_rows": 480,
+    "batch": 24,
+    "steps": 160,
+    "masked_positions_per_row": 4
+  },
+  "arms": {
+    "local": {
+      "seconds": 2.0072677999996813,
+      "last_loss": 1.8844521045684814,
+      "test": {
+        "short": {
+          "accuracy": 0.3020833432674408,
+          "retrieval_at_1": 0.0,
+          "size": 96
+        },
+        "long": {
+          "accuracy": 0.1875,
+          "retrieval_at_1": 0.0,
+          "size": 96
+        }
+      }
+    },
+    "global": {
+      "seconds": 2.0125068000052124,
+      "last_loss": 0.805637538433075,
+      "test": {
+        "short": {
+          "accuracy": 0.9895833134651184,
+          "retrieval_at_1": 0.0,
+          "size": 96
+        },
+        "long": {
+          "accuracy": 0.9479166865348816,
+          "retrieval_at_1": 0.0,
+          "size": 96
+        }
+      }
+    },
+    "global_span": {
+      "seconds": 1.9084839999995893,
+      "last_loss": 0.7934858202934265,
+      "test": {
+        "short": {
+          "accuracy": 1.0,
+          "retrieval_at_1": 0.0,
+          "size": 96
+        },
+        "long": {
+          "accuracy": 0.9583333134651184,
+          "retrieval_at_1": 0.0,
+          "size": 96
+        }
+      }
+    },
+    "global_retrieval": {
+      "seconds": 2.0034088999964297,
+      "last_loss": 0.8019453287124634,
+      "test": {
+        "short": {
+          "accuracy": 0.9895833134651184,
+          "retrieval_at_1": 0.9895833134651184,
+          "size": 96
+        },
+        "long": {
+          "accuracy": 0.9166666865348816,
+          "retrieval_at_1": 1.0,
+          "size": 96
+        }
+      }
+    }
+  }
+}

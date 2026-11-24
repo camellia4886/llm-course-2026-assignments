@@ -1,0 +1,282 @@
+{
+  "C13": {
+    "poem": "静夜思",
+    "version": "V0",
+    "seed": 20261121,
+    "cost": {
+      "prompt_tokens": 30,
+      "completion_tokens": 80,
+      "gen_secs": 3.097
+    }
+  },
+  "C21": {
+    "poem": "静夜思",
+    "version": "V0",
+    "seed": 20261122,
+    "cost": {
+      "prompt_tokens": 30,
+      "completion_tokens": 96,
+      "gen_secs": 2.835
+    }
+  },
+  "C04": {
+    "poem": "静夜思",
+    "version": "V0",
+    "seed": 20261123,
+    "cost": {
+      "prompt_tokens": 30,
+      "completion_tokens": 96,
+      "gen_secs": 2.856
+    }
+  },
+  "C25": {
+    "poem": "静夜思",
+    "version": "V1",
+    "seed": 20261121,
+    "cost": {
+      "prompt_tokens": 104,
+      "completion_tokens": 96,
+      "gen_secs": 2.86
+    }
+  },
+  "C23": {
+    "poem": "静夜思",
+    "version": "V1",
+    "seed": 20261122,
+    "cost": {
+      "prompt_tokens": 104,
+      "completion_tokens": 30,
+      "gen_secs": 0.901
+    }
+  },
+  "C03": {
+    "poem": "静夜思",
+    "version": "V1",
+    "seed": 20261123,
+    "cost": {
+      "prompt_tokens": 104,
+      "completion_tokens": 96,
+      "gen_secs": 2.877
+    }
+  },
+  "C07": {
+    "poem": "静夜思",
+    "version": "V2",
+    "seed": 20261121,
+    "cost": {
+      "prompt_tokens": 239,
+      "completion_tokens": 96,
+      "gen_secs": 2.859
+    }
+  },
+  "C01": {
+    "poem": "静夜思",
+    "version": "V2",
+    "seed": 20261122,
+    "cost": {
+      "prompt_tokens": 239,
+      "completion_tokens": 96,
+      "gen_secs": 2.886
+    }
+  },
+  "C12": {
+    "poem": "静夜思",
+    "version": "V2",
+    "seed": 20261123,
+    "cost": {
+      "prompt_tokens": 239,
+      "completion_tokens": 96,
+      "gen_secs": 2.855
+    }
+  },
+  "C15": {
+    "poem": "静夜思",
+    "version": "V3",
+    "seed": 20261121,
+    "cost": {
+      "prompt_tokens": 191,
+      "completion_tokens": 90,
+      "gen_secs": 2.685
+    }
+  },
+  "C06": {
+    "poem": "静夜思",
+    "version": "V3",
+    "seed": 20261122,
+    "cost": {
+      "prompt_tokens": 191,
+      "completion_tokens": 96,
+      "gen_secs": 2.897
+    }
+  },
+  "C17": {
+    "poem": "静夜思",
+    "version": "V3",
+    "seed": 20261123,
+    "cost": {
+      "prompt_tokens": 191,
+      "completion_tokens": 96,
+      "gen_secs": 2.873
+    }
+  },
+  "C09": {
+    "poem": "赠别",
+    "version": "V0",
+    "seed": 20261121,
+    "cost": {
+      "prompt_tokens": 39,
+      "completion_tokens": 96,
+      "gen_secs": 2.879
+    }
+  },
+  "C14": {
+    "poem": "赠别",
+    "version": "V0",
+    "seed": 20261122,
+    "cost": {
+      "prompt_tokens": 39,
+      "completion_tokens": 96,
+      "gen_secs": 2.834
+    }
+  },
+  "C20": {
+    "poem": "赠别",
+    "version": "V0",
+    "seed": 20261123,
+    "cost": {
+      "prompt_tokens": 39,
+      "completion_tokens": 96,
+      "gen_secs": 2.858
+    }
+  },
+  "C27": {
+    "poem": "赠别",
+    "version": "V1",
+    "seed": 20261121,
+    "cost": {
+      "prompt_tokens": 127,
+      "completion_tokens": 96,
+      "gen_secs": 2.869
+    }
+  },
+  "C24": {
+    "poem": "赠别",
+    "version": "V1",
+    "seed": 20261122,
+    "cost": {
+      "prompt_tokens": 127,
+      "completion_tokens": 96,
+      "gen_secs": 2.876
+    }
+  },
+  "C18": {
+    "poem": "赠别",
+    "version": "V1",
+    "seed": 20261123,
+    "cost": {
+      "prompt_tokens": 127,
+      "completion_tokens": 96,
+      "gen_secs": 2.872
+    }
+  },
+  "C26": {
+    "poem": "赠别",
+    "version": "V2",
+    "seed": 20261121,
+    "cost": {
+      "prompt_tokens": 250,
+      "completion_tokens": 96,
+      "gen_secs": 2.854
+    }
+  },
+  "C00": {
+    "poem": "赠别",
+    "version": "V2",
+    "seed": 20261122,
+    "cost": {
+      "prompt_tokens": 250,
+      "completion_tokens": 96,
+      "gen_secs": 2.862
+    }
+  },
+  "C22": {
+    "poem": "赠别",
+    "version": "V2",
+    "seed": 20261123,
+    "cost": {
+      "prompt_tokens": 250,
+      "completion_tokens": 96,
+      "gen_secs": 2.871
+    }
+  },
+  "C10": {
+    "poem": "赠别",
+    "version": "V3",
+    "seed": 20261121,
+    "cost": {
+      "prompt_tokens": 232,
+      "completion_tokens": 96,
+      "gen_secs": 2.848
+    }
+  },
+  "C02": {
+    "poem": "赠别",
+    "version": "V3",
+    "seed": 20261122,
+    "cost": {
+      "prompt_tokens": 232,
+      "completion_tokens": 96,
+      "gen_secs": 2.854
+    }
+  },
+  "C19": {
+    "poem": "赠别",
+    "version": "V3",
+    "seed": 20261123,
+    "cost": {
+      "prompt_tokens": 232,
+      "completion_tokens": 96,
+      "gen_secs": 2.87
+    }
+  },
+  "C11": {
+    "poem": "相思",
+    "version": "V0",
+    "seed": 20261121,
+    "cost": {
+      "prompt_tokens": 32,
+      "completion_tokens": 96,
+      "gen_secs": 2.845
+    }
+  },
+  "C08": {
+    "poem": "相思",
+    "version": "V1",
+    "seed": 20261121,
+    "cost": {
+      "prompt_tokens": 111,
+      "completion_tokens": 96,
+      "gen_secs": 2.847
+    }
+  },
+  "C05": {
+    "poem": "相思",
+    "version": "V2",
+    "seed": 20261121,
+    "cost": {
+      "prompt_tokens": 179,
+      "completion_tokens": 83,
+      "gen_secs": 2.487
+    }
+  },
+  "C16": {
+    "poem": "相思",
+    "version": "V3",
+    "seed": 20261121,
+    "cost": {
+      "prompt_tokens": 192,
+      "completion_tokens": 96,
+      "gen_secs": 2.882
+    }
+  }
+}

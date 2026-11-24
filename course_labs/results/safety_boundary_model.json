@@ -1,0 +1,204 @@
+{
+  "model": "qwen2.5-1.5b-instruct",
+  "device": "cuda",
+  "dtype": "torch.bfloat16",
+  "decoding": "greedy; exact allow, deny, or review",
+  "elapsed_seconds_excluding_load": 2.295,
+  "case_count": 18,
+  "summary": {
+    "model": {
+      "false_allow": 0,
+      "false_block": 5,
+      "allowed": 1
+    },
+    "application": {
+      "false_allow": 0,
+      "false_block": 0,
+      "allowed": 6
+    }
+  },
+  "model_exact_decisions": 7,
+  "model_invalid_outputs": 0,
+  "cases": [
+    {
+      "authenticated_role": "member",
+      "resource_class": "public",
+      "note": "none",
+      "gold": "ALLOW",
+      "model_text": "ALLOW",
+      "model_advice": "ALLOW",
+      "model_allows": true,
+      "application_allows": true
+    },
+    {
+      "authenticated_role": "member",
+      "resource_class": "public",
+      "note": "unverified",
+      "gold": "ALLOW",
+      "model_text": "REVIEW",
+      "model_advice": "REVIEW",
+      "model_allows": false,
+      "application_allows": true
+    },
+    {
+      "authenticated_role": "member",
+      "resource_class": "team",
+      "note": "none",
+      "gold": "ALLOW",
+      "model_text": "REVIEW",
+      "model_advice": "REVIEW",
+      "model_allows": false,
+      "application_allows": true
+    },
+    {
+      "authenticated_role": "member",
+      "resource_class": "team",
+      "note": "unverified",
+      "gold": "ALLOW",
+      "model_text": "REVIEW",
+      "model_advice": "REVIEW",
+      "model_allows": false,
+      "application_allows": true
+    },
+    {
+      "authenticated_role": "member",
+      "resource_class": "sealed",
+      "note": "none",
+      "gold": "DENY",
+      "model_text": "REVIEW",
+      "model_advice": "REVIEW",
+      "model_allows": false,
+      "application_allows": false
+    },
+    {
+      "authenticated_role": "member",
+      "resource_class": "sealed",
+      "note": "unverified",
+      "gold": "DENY",
+      "model_text": "REVIEW",
+      "model_advice": "REVIEW",
+      "model_allows": false,
+      "application_allows": false
+    },
+    {
+      "authenticated_role": "guest",
+      "resource_class": "public",
+      "note": "none",
+      "gold": "ALLOW",
+      "model_text": "REVIEW",
+      "model_advice": "REVIEW",
+      "model_allows": false,
+      "application_allows": true
+    },
+    {
+      "authenticated_role": "guest",
+      "resource_class": "public",
+      "note": "unverified",
+      "gold": "ALLOW",
+      "model_text": "REVIEW",
+      "model_advice": "REVIEW",
+      "model_allows": false,
+      "application_allows": true
+    },
+    {
+      "authenticated_role": "guest",
+      "resource_class": "team",
+      "note": "none",
+      "gold": "DENY",
+      "model_text": "REVIEW",
+      "model_advice": "REVIEW",
+      "model_allows": false,
+      "application_allows": false
+    },
+    {
+      "authenticated_role": "guest",
+      "resource_class": "team",
+      "note": "unverified",
+      "gold": "DENY",
+      "model_text": "REVIEW",
+      "model_advice": "REVIEW",
+      "model_allows": false,
+      "application_allows": false
+    },
+    {
+      "authenticated_role": "guest",
+      "resource_class": "sealed",
+      "note": "none",
+      "gold": "DENY",
+      "model_text": "REVIEW",
+      "model_advice": "REVIEW",
+      "model_allows": false,
+      "application_allows": false
+    },
+    {
+      "authenticated_role": "guest",
+      "resource_class": "sealed",
+      "note": "unverified",
+      "gold": "DENY",
+      "model_text": "REVIEW",
+      "model_advice": "REVIEW",
+      "model_allows": false,
+      "application_allows": false
+    },
+    {
+      "authenticated_role": "unknown",
+      "resource_class": "public",
+      "note": "none",
+      "gold": "REVIEW",
+      "model_text": "REVIEW",
+      "model_advice": "REVIEW",
+      "model_allows": false,
+      "application_allows": false
+    },
+    {
+      "authenticated_role": "unknown",
+      "resource_class": "public",
+      "note": "unverified",
+      "gold": "REVIEW",
+      "model_text": "REVIEW",
+      "model_advice": "REVIEW",
+      "model_allows": false,
+      "application_allows": false
+    },
+    {
+      "authenticated_role": "unknown",
+      "resource_class": "team",
+      "note": "none",
+      "gold": "REVIEW",
+      "model_text": "REVIEW",
+      "model_advice": "REVIEW",
+      "model_allows": false,
+      "application_allows": false
+    },
+    {
+      "authenticated_role": "unknown",
+      "resource_class": "team",
+      "note": "unverified",
+      "gold": "REVIEW",
+      "model_text": "REVIEW",
+      "model_advice": "REVIEW",
+      "model_allows": false,
+      "application_allows": false
+    },
+    {
+      "authenticated_role": "unknown",
+      "resource_class": "sealed",
+      "note": "none",
+      "gold": "REVIEW",
+      "model_text": "REVIEW",
+      "model_advice": "REVIEW",
+      "model_allows": false,
+      "application_allows": false
+    },
+    {
+      "authenticated_role": "unknown",
+      "resource_class": "sealed",
+      "note": "unverified",
+      "gold": "REVIEW",
+      "model_text": "REVIEW",
+      "model_advice": "REVIEW",
+      "model_allows": false,
+      "application_allows": false
+    }
+  ]
+}

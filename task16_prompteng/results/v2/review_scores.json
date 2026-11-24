@@ -1,0 +1,268 @@
+{
+  "review_method": "Single assistant-assisted review of shuffled anonymous IDs, without opening the version mapping. No independent human rating.",
+  "rubric": {
+    "relation": "Preserve the poem's main direction, contrast, questions or negations.",
+    "imagery": "Preserve the central scene and concrete objects.",
+    "fidelity": "Avoid substantive additions and omissions.",
+    "faithful": "1–5 faithful literary translation",
+    "free": "1–5 free rendition and readability"
+  },
+  "scores": {
+    "B01": {
+      "relation": 0,
+      "imagery": 1,
+      "fidelity": 0,
+      "faithful": 3,
+      "free": 3,
+      "notes": "未写低头；将望月弱化为望天光"
+    },
+    "B02": {
+      "relation": 0,
+      "imagery": 1,
+      "fidelity": 0,
+      "faithful": 3,
+      "free": 3,
+      "notes": "把问句写成 many，末句成了说话者珍惜某物"
+    },
+    "B03": {
+      "relation": 0,
+      "imagery": 1,
+      "fidelity": 0,
+      "faithful": 3,
+      "free": 3,
+      "notes": "clear sky 代替明月，低头成了望向家"
+    },
+    "B04": {
+      "relation": 0,
+      "imagery": 0,
+      "fidelity": 0,
+      "faithful": 1,
+      "free": 2,
+      "notes": "漏入荷花深处，鸥鹭换成鹅，另加解说"
+    },
+    "B05": {
+      "relation": 1,
+      "imagery": 1,
+      "fidelity": 1,
+      "faithful": 4,
+      "free": 3,
+      "notes": "保留疑问与 longing，末句表达不自然"
+    },
+    "B06": {
+      "relation": 0,
+      "imagery": 0,
+      "fidelity": 0,
+      "faithful": 2,
+      "free": 3,
+      "notes": "省掉日暮，兴尽改成兴致正高，惊起主体含混"
+    },
+    "B07": {
+      "relation": 0,
+      "imagery": 0,
+      "fidelity": 0,
+      "faithful": 2,
+      "free": 3,
+      "notes": "擅加柳岸和海浪，误入改成主动探索"
+    },
+    "B08": {
+      "relation": 1,
+      "imagery": 1,
+      "fidelity": 0,
+      "faithful": 4,
+      "free": 3,
+      "notes": "保留上下动作和思乡，望月改为望晴空"
+    },
+    "B09": {
+      "relation": 1,
+      "imagery": 1,
+      "fidelity": 0,
+      "faithful": 4,
+      "free": 3,
+      "notes": "保留对照，床前译成床上，末句生硬"
+    },
+    "B10": {
+      "relation": 1,
+      "imagery": 1,
+      "fidelity": 0,
+      "faithful": 4,
+      "free": 3,
+      "notes": "保留对照，床前译成床上"
+    },
+    "B11": {
+      "relation": 0,
+      "imagery": 1,
+      "fidelity": 0,
+      "faithful": 3,
+      "free": 3,
+      "notes": "发几枝保留，采撷变成频率，末句漏相思"
+    },
+    "B12": {
+      "relation": 0,
+      "imagery": 1,
+      "fidelity": 0,
+      "faithful": 3,
+      "free": 4,
+      "notes": "将两处问句改成断言"
+    },
+    "B13": {
+      "relation": 0,
+      "imagery": 1,
+      "fidelity": 0,
+      "faithful": 3,
+      "free": 4,
+      "notes": "将两处问句改成断言，末句意向改变"
+    },
+    "B14": {
+      "relation": 0,
+      "imagery": 1,
+      "fidelity": 0,
+      "faithful": 3,
+      "free": 3,
+      "notes": "将两处问句改成断言，末句成了不想使对方失望"
+    },
+    "B15": {
+      "relation": 0,
+      "imagery": 1,
+      "fidelity": 0,
+      "faithful": 2,
+      "free": 3,
+      "notes": "漏掉回舟，醉得不能回家与原文不同"
+    },
+    "B16": {
+      "relation": 0,
+      "imagery": 1,
+      "fidelity": 0,
+      "faithful": 3,
+      "free": 4,
+      "notes": "将两处问句改成永不断绝"
+    },
+    "B17": {
+      "relation": 0,
+      "imagery": 1,
+      "fidelity": 0,
+      "faithful": 1,
+      "free": 2,
+      "notes": "诗只剩三行，漏问句，加整段解释"
+    },
+    "B18": {
+      "relation": 0,
+      "imagery": 1,
+      "fidelity": 0,
+      "faithful": 3,
+      "free": 3,
+      "notes": "两处问句改断言，将不负相思改成实现爱情的承诺"
+    },
+    "B19": {
+      "relation": 0,
+      "imagery": 0,
+      "fidelity": 0,
+      "faithful": 2,
+      "free": 4,
+      "notes": "有回舟及重复，但柳岸、夜深与静波属增补"
+    },
+    "B20": {
+      "relation": 0,
+      "imagery": 1,
+      "fidelity": 0,
+      "faithful": 3,
+      "free": 4,
+      "notes": "两处问句改断言，最后引入 fulfil my love"
+    },
+    "B21": {
+      "relation": 1,
+      "imagery": 1,
+      "fidelity": 1,
+      "faithful": 5,
+      "free": 4,
+      "notes": "四行关系与主要画面完整，最后的英语略别扭"
+    },
+    "B22": {
+      "relation": 1,
+      "imagery": 1,
+      "fidelity": 0,
+      "faithful": 4,
+      "free": 4,
+      "notes": "保留误入、重复及惊鸟，省略亭并添日光斑驳"
+    },
+    "B23": {
+      "relation": 0,
+      "imagery": 1,
+      "fidelity": 0,
+      "faithful": 3,
+      "free": 4,
+      "notes": "两处问句改断言，末句将我的相思改成你的渴望"
+    },
+    "B24": {
+      "relation": 0,
+      "imagery": 1,
+      "fidelity": 0,
+      "faithful": 3,
+      "free": 4,
+      "notes": "保留愁何时止，河水何时休写成流了很久"
+    },
+    "B25": {
+      "relation": 0,
+      "imagery": 0,
+      "fidelity": 0,
+      "faithful": 2,
+      "free": 3,
+      "notes": "原文说惊动鸥鹭，译文把人物写成自己发抖"
+    },
+    "B26": {
+      "relation": 1,
+      "imagery": 1,
+      "fidelity": 0,
+      "faithful": 4,
+      "free": 3,
+      "notes": "保留上下动作与思乡，床前译成床上"
+    },
+    "B27": {
+      "relation": 0,
+      "imagery": 1,
+      "fidelity": 0,
+      "faithful": 3,
+      "free": 3,
+      "notes": "把疑似霜转为质疑是否是霜，省掉低头"
+    },
+    "B28": {
+      "relation": 0,
+      "imagery": 1,
+      "fidelity": 0,
+      "faithful": 3,
+      "free": 3,
+      "notes": "保留问句，最相思译成最珍贵"
+    },
+    "B29": {
+      "relation": 0,
+      "imagery": 1,
+      "fidelity": 0,
+      "faithful": 3,
+      "free": 3,
+      "notes": "漏 longing，译文前后加元说明"
+    },
+    "B30": {
+      "relation": 0,
+      "imagery": 1,
+      "fidelity": 0,
+      "faithful": 3,
+      "free": 3,
+      "notes": "采撷变成频率，末句漏相思"
+    },
+    "B31": {
+      "relation": 1,
+      "imagery": 1,
+      "fidelity": 1,
+      "faithful": 5,
+      "free": 4,
+      "notes": "保留红豆、疑问、采撷与思念"
+    },
+    "B32": {
+      "relation": 0,
+      "imagery": 0,
+      "fidelity": 0,
+      "faithful": 2,
+      "free": 3,
+      "notes": "发话者被鸥鹭惊醒，增 thousands 和柳岸"
+    }
+  }
+}

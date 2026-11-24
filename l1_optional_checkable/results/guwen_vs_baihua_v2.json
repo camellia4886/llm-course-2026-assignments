@@ -1,0 +1,320 @@
+{
+  "setup": {
+    "model": "C:\\Users\\camellia\\Desktop\\大语言模型\\作业\\llm-course-2026-assignments\\task6_bert\\results\\bert_punct",
+    "decode": "decode_batch(滑窗)",
+    "mirror_check_gold_sents": {
+      "岳阳楼记": [
+        22,
+        22
+      ],
+      "醉翁亭记": [
+        25,
+        25
+      ],
+      "爱莲说": [
+        9,
+        9
+      ],
+      "陋室铭": [
+        9,
+        9
+      ],
+      "马说": [
+        10,
+        10
+      ],
+      "桃花源记": [
+        28,
+        28
+      ],
+      "师说": [
+        30,
+        30
+      ]
+    }
+  },
+  "per_text": [
+    {
+      "name": "岳阳楼记",
+      "domain": "古文",
+      "chars": 368,
+      "acc": 0.875,
+      "macroF1_出现类": 0.4748,
+      "gold_sents": 22,
+      "pred_sents": 15,
+      "sents_delta": -7
+    },
+    {
+      "name": "岳阳楼记",
+      "domain": "白话",
+      "chars": 699,
+      "acc": 0.9442,
+      "macroF1_出现类": 0.4516,
+      "gold_sents": 22,
+      "pred_sents": 21,
+      "sents_delta": -1
+    },
+    {
+      "name": "醉翁亭记",
+      "domain": "古文",
+      "chars": 402,
+      "acc": 0.8557,
+      "macroF1_出现类": 0.4082,
+      "gold_sents": 25,
+      "pred_sents": 21,
+      "sents_delta": -4
+    },
+    {
+      "name": "醉翁亭记",
+      "domain": "白话",
+      "chars": 661,
+      "acc": 0.9168,
+      "macroF1_出现类": 0.4279,
+      "gold_sents": 25,
+      "pred_sents": 26,
+      "sents_delta": 1
+    },
+    {
+      "name": "爱莲说",
+      "domain": "古文",
+      "chars": 119,
+      "acc": 0.8739,
+      "macroF1_出现类": 0.4017,
+      "gold_sents": 9,
+      "pred_sents": 7,
+      "sents_delta": -2
+    },
+    {
+      "name": "爱莲说",
+      "domain": "白话",
+      "chars": 200,
+      "acc": 0.92,
+      "macroF1_出现类": 0.4721,
+      "gold_sents": 9,
+      "pred_sents": 8,
+      "sents_delta": -1
+    },
+    {
+      "name": "陋室铭",
+      "domain": "古文",
+      "chars": 81,
+      "acc": 0.8272,
+      "macroF1_出现类": 0.315,
+      "gold_sents": 9,
+      "pred_sents": 2,
+      "sents_delta": -7
+    },
+    {
+      "name": "陋室铭",
+      "domain": "白话",
+      "chars": 166,
+      "acc": 0.9518,
+      "macroF1_出现类": 0.8932,
+      "gold_sents": 9,
+      "pred_sents": 6,
+      "sents_delta": -3
+    },
+    {
+      "name": "马说",
+      "domain": "古文",
+      "chars": 151,
+      "acc": 0.9007,
+      "macroF1_出现类": 0.3708,
+      "gold_sents": 10,
+      "pred_sents": 7,
+      "sents_delta": -3
+    },
+    {
+      "name": "马说",
+      "domain": "白话",
+      "chars": 245,
+      "acc": 0.9306,
+      "macroF1_出现类": 0.6577,
+      "gold_sents": 10,
+      "pred_sents": 8,
+      "sents_delta": -2
+    },
+    {
+      "name": "桃花源记",
+      "domain": "古文",
+      "chars": 320,
+      "acc": 0.8406,
+      "macroF1_出现类": 0.5006,
+      "gold_sents": 28,
+      "pred_sents": 11,
+      "sents_delta": -17
+    },
+    {
+      "name": "桃花源记",
+      "domain": "白话",
+      "chars": 642,
+      "acc": 0.9408,
+      "macroF1_出现类": 0.5125,
+      "gold_sents": 28,
+      "pred_sents": 18,
+      "sents_delta": -10
+    },
+    {
+      "name": "师说",
+      "domain": "古文",
+      "chars": 456,
+      "acc": 0.8684,
+      "macroF1_出现类": 0.4413,
+      "gold_sents": 30,
+      "pred_sents": 23,
+      "sents_delta": -7
+    },
+    {
+      "name": "师说",
+      "domain": "白话",
+      "chars": 762,
+      "acc": 0.9409,
+      "macroF1_出现类": 0.4784,
+      "gold_sents": 30,
+      "pred_sents": 29,
+      "sents_delta": -1
+    }
+  ],
+  "control_pairs": [
+    {
+      "name": "桃花源记开篇",
+      "excluded_pos": [
+        0,
+        1,
+        2,
+        17,
+        18,
+        19
+      ],
+      "n_compare": 14,
+      "mismatch_outside": [],
+      "一致": true
+    },
+    {
+      "name": "陋室铭尾联",
+      "excluded_pos": [
+        2,
+        3,
+        7,
+        8
+      ],
+      "n_compare": 13,
+      "mismatch_outside": [
+        [
+          4,
+          3,
+          0
+        ],
+        [
+          16,
+          0,
+          2
+        ]
+      ],
+      "一致": false
+    }
+  ],
+  "overall": {
+    "古文": {
+      "acc": 0.8635,
+      "macroF1": 0.3746,
+      "macroF1_出现类": 0.3746,
+      "chars": 1897
+    },
+    "白话": {
+      "acc": 0.9354,
+      "macroF1": 0.4958,
+      "macroF1_出现类": 0.4958,
+      "chars": 3375
+    }
+  },
+  "errors_古文": [
+    [
+      0,
+      22,
+      15,
+      "句数不一致"
+    ],
+    [
+      1,
+      25,
+      21,
+      "句数不一致"
+    ],
+    [
+      2,
+      9,
+      7,
+      "句数不一致"
+    ],
+    [
+      3,
+      9,
+      2,
+      "句数不一致"
+    ],
+    [
+      4,
+      10,
+      7,
+      "句数不一致"
+    ],
+    [
+      5,
+      28,
+      11,
+      "句数不一致"
+    ],
+    [
+      6,
+      30,
+      23,
+      "句数不一致"
+    ]
+  ],
+  "errors_白话": [
+    [
+      0,
+      22,
+      21,
+      "句数不一致"
+    ],
+    [
+      1,
+      25,
+      26,
+      "句数不一致"
+    ],
+    [
+      2,
+      9,
+      8,
+      "句数不一致"
+    ],
+    [
+      3,
+      9,
+      6,
+      "句数不一致"
+    ],
+    [
+      4,
+      10,
+      8,
+      "句数不一致"
+    ],
+    [
+      5,
+      28,
+      18,
+      "句数不一致"
+    ],
+    [
+      6,
+      30,
+      29,
+      "句数不一致"
+    ]
+  ],
+  "ledger_s": 0.9
+}

@@ -1,0 +1,7 @@
+{
+  "model": "qwen2.5-1.5b-instruct",
+  "device": "cuda",
+  "dtype": "torch.bfloat16",
+  "torch_version": "2.11.0+cu128",
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU"
+}

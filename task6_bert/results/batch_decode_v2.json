@@ -1,0 +1,266 @@
+{
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "window_characters": 400,
+  "retained_prefix": 300,
+  "fixed_stride": 250,
+  "test_cases": {
+    "march_news": {
+      "characters": 20000,
+      "results": {
+        "serial": {
+          "windows": 75,
+          "forward_calls": 75,
+          "median_seconds": 0.6102798999927472,
+          "seconds_trials": [
+            0.6236601999989944,
+            0.6102798999927472,
+            0.5938880000030622
+          ],
+          "characters_per_second": 32771.84780334021,
+          "agreement_with_serial": 1.0,
+          "macro_f1": 0.4948860168046061,
+          "punctuation_macro_f1": 0.4243245513208748
+        },
+        "batch_1": {
+          "windows": 80,
+          "forward_calls": 80,
+          "median_seconds": 0.6439688000100432,
+          "seconds_trials": [
+            0.636372199995094,
+            0.6550673000019742,
+            0.6439688000100432
+          ],
+          "characters_per_second": 31057.405265112353,
+          "agreement_with_serial": 0.9896,
+          "macro_f1": 0.4922355134124742,
+          "punctuation_macro_f1": 0.42124373498623446
+        },
+        "batch_8": {
+          "windows": 80,
+          "forward_calls": 10,
+          "median_seconds": 0.38529120000021067,
+          "seconds_trials": [
+            0.38529120000021067,
+            0.39273429999593645,
+            0.3828808999969624
+          ],
+          "characters_per_second": 51908.790026839604,
+          "agreement_with_serial": 0.9897,
+          "macro_f1": 0.49168659957992544,
+          "punctuation_macro_f1": 0.4206124586959477
+        },
+        "batch_16": {
+          "windows": 80,
+          "forward_calls": 5,
+          "median_seconds": 0.37875779999012593,
+          "seconds_trials": [
+            0.37875779999012593,
+            0.4407833000004757,
+            0.3715241000027163
+          ],
+          "characters_per_second": 52804.19307674031,
+          "agreement_with_serial": 0.9897,
+          "macro_f1": 0.49168659957992544,
+          "punctuation_macro_f1": 0.4206124586959477
+        },
+        "batch_32": {
+          "windows": 80,
+          "forward_calls": 3,
+          "median_seconds": 0.36999680000008084,
+          "seconds_trials": [
+            0.39284610000322573,
+            0.36706069999490865,
+            0.36999680000008084
+          ],
+          "characters_per_second": 54054.521552607024,
+          "agreement_with_serial": 0.98965,
+          "macro_f1": 0.49163035320642096,
+          "punctuation_macro_f1": 0.4205521233221736
+        },
+        "batch_64": {
+          "windows": 80,
+          "forward_calls": 2,
+          "median_seconds": 0.3661259000073187,
+          "seconds_trials": [
+            0.3720885999937309,
+            0.3644868999981554,
+            0.3661259000073187
+          ],
+          "characters_per_second": 54626.01798889456,
+          "agreement_with_serial": 0.98965,
+          "macro_f1": 0.49163035320642096,
+          "punctuation_macro_f1": 0.4205521233221736
+        }
+      }
+    },
+    "classical": {
+      "characters": 1897,
+      "results": {
+        "serial": {
+          "windows": 7,
+          "forward_calls": 7,
+          "median_seconds": 0.05776270000205841,
+          "seconds_trials": [
+            0.05776270000205841,
+            0.0546083999943221,
+            0.057822000002488494
+          ],
+          "characters_per_second": 32841.262612938786,
+          "agreement_with_serial": 1.0,
+          "macro_f1": 0.3923353555386263,
+          "punctuation_macro_f1": 0.3139240534321104
+        },
+        "batch_1": {
+          "windows": 7,
+          "forward_calls": 7,
+          "median_seconds": 0.05687250000482891,
+          "seconds_trials": [
+            0.05687250000482891,
+            0.05631319999520201,
+            0.059353799995733425
+          ],
+          "characters_per_second": 33355.3123185886,
+          "agreement_with_serial": 0.9646810753821824,
+          "macro_f1": 0.3626466195491632,
+          "punctuation_macro_f1": 0.2803894702678711
+        },
+        "batch_8": {
+          "windows": 7,
+          "forward_calls": 1,
+          "median_seconds": 0.030000300001120195,
+          "seconds_trials": [
+            0.02950099999725353,
+            0.030340600002091378,
+            0.030000300001120195
+          ],
+          "characters_per_second": 63232.7010039622,
+          "agreement_with_serial": 0.9646810753821824,
+          "macro_f1": 0.3626466195491632,
+          "punctuation_macro_f1": 0.2803894702678711
+        },
+        "batch_16": {
+          "windows": 7,
+          "forward_calls": 1,
+          "median_seconds": 0.03134830000635702,
+          "seconds_trials": [
+            0.03198790000169538,
+            0.03134830000635702,
+            0.03042420001293067
+          ],
+          "characters_per_second": 60513.648255736785,
+          "agreement_with_serial": 0.9646810753821824,
+          "macro_f1": 0.3626466195491632,
+          "punctuation_macro_f1": 0.2803894702678711
+        },
+        "batch_32": {
+          "windows": 7,
+          "forward_calls": 1,
+          "median_seconds": 0.03069429998868145,
+          "seconds_trials": [
+            0.032180599999264814,
+            0.03069429998868145,
+            0.030677699993248098
+          ],
+          "characters_per_second": 61803.00579259082,
+          "agreement_with_serial": 0.9646810753821824,
+          "macro_f1": 0.3626466195491632,
+          "punctuation_macro_f1": 0.2803894702678711
+        },
+        "batch_64": {
+          "windows": 7,
+          "forward_calls": 1,
+          "median_seconds": 0.031186599997454323,
+          "seconds_trials": [
+            0.03106179999304004,
+            0.03188829999999143,
+            0.031186599997454323
+          ],
+          "characters_per_second": 60827.40664756168,
+          "agreement_with_serial": 0.9646810753821824,
+          "macro_f1": 0.3626466195491632,
+          "punctuation_macro_f1": 0.2803894702678711
+        }
+      }
+    },
+    "classical_long": {
+      "characters": 5691,
+      "results": {
+        "serial": {
+          "windows": 20,
+          "forward_calls": 20,
+          "median_seconds": 0.1703605999937281,
+          "seconds_trials": [
+            0.1761467000033008,
+            0.1703605999937281,
+            0.1557872999983374
+          ],
+          "characters_per_second": 33405.611392596154,
+          "agreement_with_serial": 1.0
+        },
+        "batch_1": {
+          "windows": 23,
+          "forward_calls": 23,
+          "median_seconds": 0.19077889999607578,
+          "seconds_trials": [
+            0.18781350000062957,
+            0.19173290001344867,
+            0.19077889999607578
+          ],
+          "characters_per_second": 29830.3428739607,
+          "agreement_with_serial": 0.9613424705675628
+        },
+        "batch_8": {
+          "windows": 23,
+          "forward_calls": 3,
+          "median_seconds": 0.09907949999615084,
+          "seconds_trials": [
+            0.0974283999967156,
+            0.09907949999615084,
+            0.10454810000373982
+          ],
+          "characters_per_second": 57438.72345158272,
+          "agreement_with_serial": 0.9615181866104375
+        },
+        "batch_16": {
+          "windows": 23,
+          "forward_calls": 2,
+          "median_seconds": 0.10362299998814706,
+          "seconds_trials": [
+            0.10362299998814706,
+            0.10569309999118559,
+            0.10298199999670032
+          ],
+          "characters_per_second": 54920.239721403224,
+          "agreement_with_serial": 0.9615181866104375
+        },
+        "batch_32": {
+          "windows": 23,
+          "forward_calls": 1,
+          "median_seconds": 0.113560800004052,
+          "seconds_trials": [
+            0.11001930000202265,
+            0.113560800004052,
+            0.11437709999154322
+          ],
+          "characters_per_second": 50114.12388603231,
+          "agreement_with_serial": 0.9613424705675628
+        },
+        "batch_64": {
+          "windows": 23,
+          "forward_calls": 1,
+          "median_seconds": 0.11080570000922307,
+          "seconds_trials": [
+            0.18659110000589862,
+            0.10954769999079872,
+            0.11080570000922307
+          ],
+          "characters_per_second": 51360.1737052002,
+          "agreement_with_serial": 0.9613424705675628
+        }
+      }
+    }
+  },
+  "classical_long_note": "The concatenated public-domain passages are repeated three times for throughput only.",
+  "classical_sample": "庆历四年春，滕子京谪守巴陵郡，越明年政通人和，百废具兴，乃重修岳阳楼，增其旧制，刻唐贤今人诗赋于其上，属予作文以记之。予观。夫巴陵胜状在洞庭，一湖衔远山吞长江，浩浩，汤汤横无际涯，朝晖夕阴，气象万千。此则岳阳楼之大观也，前人之述备矣。然则北通巫峡、南极，潇湘，迁客骚人多会于此，览物之情得无异乎？若夫霪雨霏霏，连月不开，阴风怒号，浊浪排空，日星隐曜，山岳潜形，商旅不行，樯倾楫摧，薄暮冥冥，虎啸猿啼，登斯楼也。则有去国怀乡，忧谗畏讥，满目萧然，感极而悲者矣。至若春和景明，波澜不惊，上下天光，一碧万顷，沙鸥翔集锦鳞游泳，岸芷汀兰郁郁青青，而或长烟一空，皓月千里浮光，跃金静影，沉璧，渔歌互答，此乐，何极登斯楼也？则有心旷神怡，宠辱偕忘，把酒临风，其喜洋洋者矣。嗟。夫予尝求古仁人之心或异二者之为何哉？不以物喜，不以己悲。居庙堂之高则忧其民，处江湖之远，则忧其君是进亦忧，退亦忧。然则何时而乐耶？其必曰先天下之忧，而忧后天下之乐而乐乎？噫微。斯人。吾谁与归时。六年九月十五日，环滁皆山也。其西南诸峰林壑尤美，望之蔚然而深秀者琅琊也，山行六七里，渐闻水声潺潺而泻出于两峰之间者酿泉也，峰回路转。"
+}
