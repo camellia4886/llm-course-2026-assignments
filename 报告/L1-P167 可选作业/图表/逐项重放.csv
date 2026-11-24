@@ -1,0 +1,9 @@
+﻿编号,预期,一律放行,有命中即拦,按接收者查表
+A,allow,allow,block,allow
+B,block,allow,block,block
+C,allow,allow,allow,allow
+D,allow,allow,allow,allow
+E,allow,allow,block,block
+F,review,allow,block,review
+G,block,allow,block,block
+H,allow,allow,block,allow

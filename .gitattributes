@@ -1,2 +1,5 @@
 * text=auto
 *.pdf -text
+*.docx binary
+*.png binary
+报告/**/图表/*.csv -text
